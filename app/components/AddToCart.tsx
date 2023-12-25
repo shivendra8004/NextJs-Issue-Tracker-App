@@ -4,7 +4,9 @@ import React from "react";
 const AddToCart = () => {
     return (
         <div>
-            <button onClick={() => console.log("Clicked")}>Click</button>
+            <button className="py-2 px-6 rounded border border-slate-400" onClick={() => console.log("Clicked")}>
+                Click
+            </button>
         </div>
     );
 };
